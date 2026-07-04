@@ -2,6 +2,10 @@
 
 Javaでの業務システム開発・保守経験をまとめた個人ポートフォリオLPです。
 
+## Published Site
+
+https://toru0827.github.io/portfolio-lp/
+
 ## Contents
 
 - About
