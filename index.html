@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TORU Portfolio</title>
+    <meta
+      name="description"
+      content="Javaでの業務システム開発・保守経験を持つTORUの個人ポートフォリオLPです。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="TORU Portfolio">
+        <span class="brand-mark">T</span>
+        <span>TORU</span>
+      </a>
+      <button class="menu-button" type="button" aria-label="メニューを開く" data-menu-button>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" data-nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#works">Works</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="TORU Portfolio">
+        <img class="hero-image" src="./assets/hero-workspace.png" alt="" />
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Java / Struts / Nablarch / Spring Boot / React</p>
+          <h1>TORU Portfolio</h1>
+          <p class="hero-copy">
+            Javaでの業務システム開発・保守経験を活かし、バックエンドからフロントエンド、公開まで一貫して形にするWebエンジニアです。
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#works">制作実績を見る</a>
+            <a class="button button-ghost" href="https://github.com/toru0827" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro-band" id="about">
+        <div class="section-inner two-column">
+          <div>
+            <p class="section-label">About</p>
+            <h2>業務システムの現場経験を土台に、使えるWebアプリを作ります。</h2>
+          </div>
+          <div class="lead-block">
+            <p>
+              開発経験は満4年です。エネルギー・通信領域などの業務システムで、Javaを中心に開発・保守を担当してきました。
+              基本設計からリリースまで一連の工程を経験し、現在はその経験を活かしながら、Reactによるフロントエンド実装、API連携、認証、クラウド公開まで含めたWebアプリ制作に取り組んでいます。
+            </p>
+            <dl class="profile-list">
+              <div>
+                <dt>Experience</dt>
+                <dd>開発経験 満4年</dd>
+              </div>
+              <div>
+                <dt>Domain</dt>
+                <dd>エネルギー、通信などの業務システム</dd>
+              </div>
+              <div>
+                <dt>Stack</dt>
+                <dd>Java, Struts, Nablarch, Spring Boot, Oracle, PostgreSQL, DB2</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section class="section experience-section" id="experience">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="section-label">Experience</p>
+            <h2>これまでの経験</h2>
+          </div>
+          <div class="experience-grid">
+            <article class="experience-card">
+              <span class="skill-index">01</span>
+              <h3>Javaによる業務システム開発</h3>
+              <p>
+                Struts、Nablarch、Spring Bootを使用し、エネルギー・通信領域などの業務システムで機能追加、障害調査、SQL修正、バッチ改修に携わってきました。
+              </p>
+            </article>
+            <article class="experience-card">
+              <span class="skill-index">02</span>
+              <h3>基本設計からリリースまで</h3>
+              <p>
+                基本設計、詳細設計、製造、テスト、リリースまで一通りの工程を経験。10人規模のチームで、既存仕様と影響範囲を確認しながら対応します。
+              </p>
+            </article>
+            <article class="experience-card">
+              <span class="skill-index">03</span>
+              <h3>DB・フロントも含めた対応</h3>
+              <p>
+                Oracle、PostgreSQL、DB2を使用したデータ調査・SQL修正に加え、HTML/CSS/JavaScript/jQueryを用いた画面側の改修経験があります。
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="section-label">Skills</p>
+            <h2>対応できること</h2>
+          </div>
+          <div class="skill-grid">
+            <article class="skill-card">
+              <span class="skill-index">01</span>
+              <h3>Backend</h3>
+              <p>Java、Struts、Nablarch、Spring Bootを中心に、業務ロジック、REST API、JWT認証、DB連携を実装します。</p>
+            </article>
+            <article class="skill-card">
+              <span class="skill-index">02</span>
+              <h3>Maintenance / DB</h3>
+              <p>機能追加、障害調査、SQL修正、バッチ改修に対応。Oracle、PostgreSQL、DB2を使用した保守経験があります。</p>
+            </article>
+            <article class="skill-card">
+              <span class="skill-index">03</span>
+              <h3>Frontend / Release</h3>
+              <p>HTML/CSS/JavaScript/jQueryの実務経験に加え、Reactで画面を実装し、Vercel・Renderで公開します。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section works-section" id="works">
+        <div class="section-inner">
+          <div class="section-heading compact">
+            <p class="section-label">Works</p>
+            <h2>制作実績</h2>
+          </div>
+          <article class="work-feature">
+            <div class="work-visual">
+              <img src="./assets/task-app-login.png" alt="タスク管理アプリのログイン画面" />
+            </div>
+            <div class="work-detail">
+              <p class="work-type">Full-stack Web App</p>
+              <h3>Task Management App</h3>
+              <p>
+                JWT認証つきのタスク管理アプリです。ログイン、タスク一覧、登録、編集、削除を実装し、バックエンドはRender、フロントエンドはVercelで公開しています。
+              </p>
+              <ul class="tag-list" aria-label="使用技術">
+                <li>Java</li>
+                <li>Spring Boot</li>
+                <li>React</li>
+                <li>PostgreSQL</li>
+                <li>JWT</li>
+              </ul>
+              <div class="work-links">
+                <a class="button button-primary" href="https://task-management-front-sandy.vercel.app/" target="_blank" rel="noreferrer">Live Demo</a>
+                <a class="button button-secondary" href="https://github.com/toru0827/task-management-front" target="_blank" rel="noreferrer">Frontend Repo</a>
+                <a class="button button-secondary" href="https://github.com/toru0827/task-management" target="_blank" rel="noreferrer">Backend Repo</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section process-section">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="section-label">Process</p>
+            <h2>開発で意識していること</h2>
+          </div>
+          <div class="process-list">
+            <div class="process-item">
+              <span>1</span>
+              <h3>仕様を読み解く</h3>
+              <p>基本設計からリリースまでの経験を活かし、既存処理や影響範囲を確認して安定した改修を行います。</p>
+            </div>
+            <div class="process-item">
+              <span>2</span>
+              <h3>APIと画面をつなぐ</h3>
+              <p>バックエンドだけ、画面だけで終わらせず、利用者が操作できる状態にします。</p>
+            </div>
+            <div class="process-item">
+              <span>3</span>
+              <h3>公開して説明できる形にする</h3>
+              <p>デモURL、テストアカウント、READMEを用意し、第三者が確認しやすい状態に整えます。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="contact-inner">
+          <p class="section-label">Contact</p>
+          <h2>制作物はGitHubで公開しています。</h2>
+          <p>業務システム開発で培った経験を活かしながら、WebアプリやLP制作の実績を追加していきます。</p>
+          <a class="button button-primary" href="https://github.com/toru0827" target="_blank" rel="noreferrer">GitHubを見る</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>TORU Portfolio</span>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
