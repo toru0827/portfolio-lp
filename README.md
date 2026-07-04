@@ -36,4 +36,5 @@ index.html
 ## Related Work
 
 - Task Management App: https://task-management-front-sandy.vercel.app/
+- Inquiry CRM: https://toru0827.github.io/inquiry-crm/
 - GitHub: https://github.com/toru0827

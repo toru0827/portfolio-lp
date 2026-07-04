@@ -345,6 +345,10 @@ a {
   align-items: center;
 }
 
+.work-feature + .work-feature {
+  margin-top: clamp(44px, 7vw, 84px);
+}
+
 .work-visual {
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.14);
